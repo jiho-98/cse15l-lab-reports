@@ -12,6 +12,6 @@ This is lab report 1 for CSE-15L course from Jiho Kim.
 * [Account](https://sdacs.ucsd.edu/~icc/index.php) you can check up your specific account for CSE15L, and reset your password!
 * Once you finished setting your cse15l account, now you need to download Git for window
 * Now, you need to set your terminal in VScode to git bash
-
+## Connecting to the server
 
 
