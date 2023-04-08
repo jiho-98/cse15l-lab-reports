@@ -10,6 +10,8 @@ This is lab report 1 for CSE-15L course from Jiho Kim.
 * Before you do remotely connecting, look up your course-specific account for CSE15L    
 ![cse15_account](https://user-images.githubusercontent.com/129816454/230739792-dfb4f098-e992-4ef0-b07f-cccc64bee449.png)
 * [Account](https://sdacs.ucsd.edu/~icc/index.php) you can check up your specific account for CSE15L, and reset your password!
+* Once you finished setting your cse15l account, now you need to download Git for window
+* Now, you need to set your terminal in VScode to git bash
 
 
 
