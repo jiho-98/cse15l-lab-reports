@@ -7,5 +7,6 @@ This is lab report 1 for CSE-15L course from Jiho Kim.
 * Once you finished to download, you are able to use VScode
 ---
 ## 2) Remotely Connecting
+Before you do remotely connecting, lool up your course-specific account for CSE15L
 
 
