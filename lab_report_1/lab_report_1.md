@@ -9,7 +9,7 @@ This is lab report 1 for CSE-15L course from Jiho Kim.
 ## 2) Remotely Connecting
 Before you do remotely connecting, lool up your course-specific account for CSE15L    
 ![cse15_account](https://user-images.githubusercontent.com/129816454/230739792-dfb4f098-e992-4ef0-b07f-cccc64bee449.png)
-[Link](https://sdacs.ucsd.edu/~icc/index.php) you can check up your specific account for CSE15L, and reset your password!
+[Check&&reset password](https://sdacs.ucsd.edu/~icc/index.php) you can check up your specific account for CSE15L, and reset your password!
 
 
 
