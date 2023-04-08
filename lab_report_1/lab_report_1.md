@@ -15,8 +15,6 @@ This is lab report 1 for CSE-15L course from Jiho Kim.
 ## Connecting to the server
 * What you do here is that type "ssh cs15lsp23--@ieng6.ucsd.edu" and your password that you set for cse15l account
 * This is what you will see, if you are connected successfully
-![remotely connecting1](https://user-images.githubusercontent.com/129816454/230740128-244916c3-4b36-47a3-88db-5adf6ede3d8b.png)
-![remotely connecting2](https://user-images.githubusercontent.com/129816454/230740129-d85472bf-5ff5-45ae-9695-bdc60c920b8a.png)
 
 
 
