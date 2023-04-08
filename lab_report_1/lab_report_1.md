@@ -7,6 +7,9 @@ This is lab report 1 for CSE-15L course from Jiho Kim.
 * Once you finished to download, you are able to use VScode
 ---
 ## 2) Remotely Connecting
-Before you do remotely connecting, lool up your course-specific account for CSE15L
+Before you do remotely connecting, lool up your course-specific account for CSE15L.
+![cse15_account](https://user-images.githubusercontent.com/129816454/230739703-678e3244-63bd-449a-8756-ee9097a2402a.png)
+[Link](https://sdacs.ucsd.edu/~icc/index.php) you can check up your specific account for CSE15L, and reset your password!
+
 
 
