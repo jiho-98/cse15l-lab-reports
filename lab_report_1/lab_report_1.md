@@ -1,4 +1,3 @@
-![remotely connecting1](https://user-images.githubusercontent.com/129816454/230740416-3344ea3c-1d9a-4dd8-b15a-5ec907e2f561.png)
 # CSE-15L Lab Report 1
 This is lab report 1 for CSE-15L course from Jiho Kim.
 ## 1) Installing VScode
