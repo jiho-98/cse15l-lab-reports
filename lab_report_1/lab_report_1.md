@@ -13,7 +13,7 @@ This is lab report 1 for CSE-15L course from Jiho Kim.
 * Once you finished setting your cse15l account, now you need to download Git for window
 * Now, you need to set your terminal in VScode to git bash
 ## Connecting to the server
-* What you do here is that type "ssh cs15lsp23--@ieng6.ucsd.edu" and your password that you set for cse15l account
+* What you do here is that type `"ssh cs15lsp23--@ieng6.ucsd.edu"` and your password that you set for cse15l account
 * This is what you will see, if you are connected successfully    
 ![remotely connecting1](https://user-images.githubusercontent.com/129816454/230740450-e31f0f80-1510-495a-9ffc-3d5de5974a15.png)
 ![remotely connecting2](https://user-images.githubusercontent.com/129816454/230740481-16140470-9be3-49d9-9753-dadfe5785552.png)
