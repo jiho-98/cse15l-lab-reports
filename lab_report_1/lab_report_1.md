@@ -26,7 +26,10 @@ This is lab report 1 for CSE-15L course from Jiho Kim.
 * `ls -a`: "ls -a" is command for **"list all files with hiddern files/directories"** 
 ---
 ## 4) Reflection
-* Since, it was first time I ever used commands or anything like this
+Since, it was first time I ever used commands or anything like this, still I don't think that I am understanding concepts 100%.        
+However, I've learned how to make a report in Github with using markdown, also how to do remotely connecting.     
+This is my first time to use VScode, but I believe that I will be get used to it. In addition, I've learned simple key commands such as "pwd", "cd", "ls", "cat".
+I had really fun with writing lab-report in Github with using markdown, it was really great that I can edit my report style by using it.
 
 
 
