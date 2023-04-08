@@ -20,7 +20,7 @@ This is lab report 1 for CSE-15L course from Jiho Kim.
 ---
 ## 3) Trying some commands
 ![cse-15l commands](https://user-images.githubusercontent.com/129816454/230741524-563b770d-0878-46bc-a5d5-2868b044c386.png)
-* 'cd': "cd" is command **Change Directory"**, it is used to switch the current working direcotry
+* 'cd ': "cd" is command **Change Directory"**, it is used to switch the current working direcotry
 * ls: "ls" is command **"List"**, it is used to list the files and folders
 * ls -lat: "ls -lat" is command for **"list of all files sorted by date"**
 * ls -a: "ls -a" is command for **"list all files with hiddern files/directories"** 
