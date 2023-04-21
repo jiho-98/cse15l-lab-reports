@@ -15,6 +15,7 @@ This is lab report 2 for CSE-15L course from Jiho Kim.
 * `String.format()`: formats a string with variables to be inserted into the string.
 * `Integer.parseInt()`: converts a string representation of an integer to an actual integer value.
 ### Changes for Part 1
+* if the path is "/add-message", the value of the StringBuilder messageBuilder field will be changed. The query string of the URI is parsed to extract the value of the message parameter. The value of messageBuilder is then appended with this parameter value, with a newline character appended to the existing value if the messageBuilder already has a non-zero length. The new value of messageBuilder is then returned as a string in the response.
 
 
 
