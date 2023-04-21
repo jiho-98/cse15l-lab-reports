@@ -27,7 +27,7 @@ This is lab report 2 for CSE-15L course from Jiho Kim.
 * `url.getPath()`: returns the path component of the URL as a string.
 * `String.format()`: formats a string with variables to be inserted into the string.
 * `Integer.parseInt()`: converts a string representation of an integer to an actual integer value.
-* `javac Server.java NumberServer.java`
+* `javac Server.java NumberServer.java`: "javac Server.java NumberServer.java" are used to compile two Java source code files, "Server.java" and "NumberServer.java", into bytecode that can be executed by the Java Virtual Machine (JVM).
 * `java NumberServer 4000`
 ---
 ### Changes for Part 1
