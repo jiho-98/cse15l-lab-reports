@@ -33,7 +33,7 @@ This is lab report 2 for CSE-15L course from Jiho Kim.
 * The value of messageBuilder is then appended with this parameter value, with a newline character appended to the existing value if the messageBuilder already has a non-zero length. 
 * The new value of messageBuilder is then returned as a string in the response
 ---
-## PART 2
+## 2) PART 2
 
 
 
