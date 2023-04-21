@@ -18,6 +18,11 @@ This is lab report 2 for CSE-15L course from Jiho Kim.
 * If the path is "/add-message", the value of the StringBuilder messageBuilder field will be changed. The query string of the URI is parsed to extract the value of the message parameter. 
 * The value of messageBuilder is then appended with this parameter value, with a newline character appended to the existing value if the messageBuilder already has a non-zero length. 
 * The new value of messageBuilder is then returned as a string in the response.
+### Example
+![lab_report_2 1](https://user-images.githubusercontent.com/129816454/233746955-bfa94262-b81d-4291-9acd-ce2c81dcdf75.png)
+* The query string of the URI is parsed to extract the value of the message parameter
+* The messageBuilder has zero lenght since this is first, messsageBuilder is returned as a string in the response
+
 
 
 
