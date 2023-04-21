@@ -23,7 +23,7 @@ This is lab report 2 for CSE-15L course from Jiho Kim.
 * The query string of the URI is parsed to extract the value of the message parameter
 * The messageBuilder has zero length since this is first, messsageBuilder is returned as a string in the response
 ![lab_report_2 2](https://user-images.githubusercontent.com/129816454/233747190-1ca335ea-396e-4c00-93bc-524772227c68.png)
-* The messageBuilder has 1 length, it's appended with parameter value from the query string of the URI, with a newline character appended to the existing value
+* The messageBuilder has 1 length, it's appended with parameter value from the query string of the URI, with a newline character appended to the existing value    
 ![lab_report_2 3](https://user-images.githubusercontent.com/129816454/233747363-ce236fb2-86fc-4e49-a84d-c156cb0181d5.png)
 * Same thing as above 
 
