@@ -2,6 +2,8 @@
 This is lab report 2 for CSE-15L course from Jiho Kim.
 ## 1) PART 1
 ![lab_report_2 4](https://user-images.githubusercontent.com/129816454/233743743-c036a90f-0e5a-4103-b29d-6ec3fefd925b.png)
+* This is a code that I modify for Part 1
+---
 ![lab_report_2 1](https://user-images.githubusercontent.com/129816454/233746955-bfa94262-b81d-4291-9acd-ce2c81dcdf75.png)
 ---
 ![lab_report_2 2](https://user-images.githubusercontent.com/129816454/233747190-1ca335ea-396e-4c00-93bc-524772227c68.png)
