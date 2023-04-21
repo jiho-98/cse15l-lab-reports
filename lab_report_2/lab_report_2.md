@@ -31,6 +31,8 @@ This is lab report 2 for CSE-15L course from Jiho Kim.
 --- 
 ![lab_report_2 3](https://user-images.githubusercontent.com/129816454/233747363-ce236fb2-86fc-4e49-a84d-c156cb0181d5.png)
 * Same thing as above 
+---
+## PART 2
 
 
 
