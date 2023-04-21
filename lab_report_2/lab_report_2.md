@@ -4,7 +4,7 @@ This is lab report 2 for CSE-15L course from Jiho Kim.
 ![lab_report_2 4](https://user-images.githubusercontent.com/129816454/233743743-c036a90f-0e5a-4103-b29d-6ec3fefd925b.png)
 * This is a code that I modify in VScode for PART 1
 ---
-### The requests "add-message?s=String" for PART 1
+## The requests "add-message?s=String" for PART 1
  ---
  `/add-message?s=Jiho`
 ![lab_report_2 1](https://user-images.githubusercontent.com/129816454/233746955-bfa94262-b81d-4291-9acd-ce2c81dcdf75.png)    
