@@ -2,6 +2,13 @@
 This is lab report 2 for CSE-15L course from Jiho Kim.
 ## 1) PART 1
 ![lab_report_2 4](https://user-images.githubusercontent.com/129816454/233743743-c036a90f-0e5a-4103-b29d-6ec3fefd925b.png)
+![lab_report_2 1](https://user-images.githubusercontent.com/129816454/233746955-bfa94262-b81d-4291-9acd-ce2c81dcdf75.png)
+---
+![lab_report_2 2](https://user-images.githubusercontent.com/129816454/233747190-1ca335ea-396e-4c00-93bc-524772227c68.png)
+* The messageBuilder has 1 length, it's appended with parameter value from the query string of the URI, with a newline character appended to the existing value   
+--- 
+![lab_report_2 3](https://user-images.githubusercontent.com/129816454/233747363-ce236fb2-86fc-4e49-a84d-c156cb0181d5.png)
+* Same thing as above 
 ### The methods called in the code
 * `HandleRequest`: This method is called when the server receives an HTTP request from a user. It takes a URI object representing the URL of the request and return string    
 * `String`: representing the response to send back to the user.
@@ -20,18 +27,6 @@ This is lab report 2 for CSE-15L course from Jiho Kim.
 * If the path is "/add-message", the value of the StringBuilder messageBuilder field will be changed. The query string of the URI is parsed to extract the value of the message parameter. 
 * The value of messageBuilder is then appended with this parameter value, with a newline character appended to the existing value if the messageBuilder already has a non-zero length. 
 * The new value of messageBuilder is then returned as a string in the response.
----
-### Example
-![lab_report_2 1](https://user-images.githubusercontent.com/129816454/233746955-bfa94262-b81d-4291-9acd-ce2c81dcdf75.png)
-* The query string of the URI is parsed to extract the value of the message parameter
-* The messageBuilder has zero length since this is first, messsageBuilder is returned as a string in the response
----
-![lab_report_2 2](https://user-images.githubusercontent.com/129816454/233747190-1ca335ea-396e-4c00-93bc-524772227c68.png)
-* The messageBuilder has 1 length, it's appended with parameter value from the query string of the URI, with a newline character appended to the existing value   
---- 
-![lab_report_2 3](https://user-images.githubusercontent.com/129816454/233747363-ce236fb2-86fc-4e49-a84d-c156cb0181d5.png)
-* Same thing as above 
----
 ## PART 2
 
 
