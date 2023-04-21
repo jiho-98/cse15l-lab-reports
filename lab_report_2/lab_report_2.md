@@ -19,7 +19,7 @@ This is lab report 2 for CSE-15L course from Jiho Kim.
 * `String`: representing the response to send back to the user.
 * `Main`: This method is the entry point of the program. It takes an array of String arguments and starts the server on the specified port using a new instance of the Handler class.
 ---
-### The relevant arguments and values for the methods and fields
+### The relevant arguments and values for the methods and fields and commands
 * The function called **"HandleRequest"** is used in the part 1.
 * `handleRequest(URI url)`: this method is called by the server to handle incoming HTTP requests. The URI argument represents the request URL. 
 * `messageBuilder`: a StringBuilder object used to append and store messages passed in through the /add-message path.
@@ -27,6 +27,8 @@ This is lab report 2 for CSE-15L course from Jiho Kim.
 * `url.getPath()`: returns the path component of the URL as a string.
 * `String.format()`: formats a string with variables to be inserted into the string.
 * `Integer.parseInt()`: converts a string representation of an integer to an actual integer value.
+* `javac Server.java NumberServer.java`
+* `java NumberServer 4000`
 ---
 ### Changes for Part 1
 * If the path is "/add-message", the value of the StringBuilder messageBuilder field will be changed. The query string of the URI is parsed to extract the value of the message parameter. 
