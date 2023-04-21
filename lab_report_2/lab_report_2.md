@@ -12,6 +12,11 @@ This is lab report 2 for CSE-15L course from Jiho Kim.
 * `messageBuilder`: a StringBuilder object used to append and store messages passed in through the /add-message path.
 * `url.getQuery()`: returns the query component of the URL as a string.
 * `url.getPath()`: returns the path component of the URL as a string.
+* `String.format()`: formats a string with variables to be inserted into the string.
+* `Integer.parseInt()`: converts a string representation of an integer to an actual integer value.
+### Changes for Part 1
+
+
 
 
 
