@@ -15,8 +15,8 @@ This is lab report 2 for CSE-15L course from Jiho Kim.
 ![lab_report_2 3](https://user-images.githubusercontent.com/129816454/233747363-ce236fb2-86fc-4e49-a84d-c156cb0181d5.png)    
 ---
 ### Two important commands to build and run the server
-`javac Server.java NumberServer.java`
-`java NumberServer integer-value`
+javac Server.java NumberServer.java    
+java NumberServer integer-value
 ---
 ### The methods called in the code
 * `HandleRequest`: This method is called when the server receives an HTTP request from a user. It takes a URI object representing the URL of the request and return string    
