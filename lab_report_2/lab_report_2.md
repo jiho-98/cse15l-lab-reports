@@ -28,7 +28,7 @@ This is lab report 2 for CSE-15L course from Jiho Kim.
 * `String.format()`: formats a string with variables to be inserted into the string.
 * `Integer.parseInt()`: converts a string representation of an integer to an actual integer value.
 * `javac Server.java NumberServer.java`: "javac Server.java NumberServer.java" are used to compile two Java source code files, "Server.java" and "NumberServer.java", into bytecode that can be executed by the Java Virtual Machine (JVM).
-* `java NumberServer 4000`
+* `java NumberServer port(integer value)`: is used to start the execution of the Java program compiled from the "NumberServer.java" source code file, and it specifies the port number as an argument to the program.
 ---
 ### Changes for Part 1
 * If the path is "/add-message", the value of the StringBuilder messageBuilder field will be changed. The query string of the URI is parsed to extract the value of the message parameter. 
