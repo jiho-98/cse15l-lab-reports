@@ -6,6 +6,7 @@ This is lab report 2 for CSE-15L course from Jiho Kim.
 ---
 ### The requests "add-message?s=<string>" for PART 1
 ![lab_report_2 1](https://user-images.githubusercontent.com/129816454/233746955-bfa94262-b81d-4291-9acd-ce2c81dcdf75.png)
+** add-message?s=Jiho
 ---
 ![lab_report_2 2](https://user-images.githubusercontent.com/129816454/233747190-1ca335ea-396e-4c00-93bc-524772227c68.png) 
 --- 
