@@ -98,7 +98,12 @@ public static void reversedInPlace(ArrayList<Integer> arr, int Size) {
 * As you can see, the bugs are fixed now!
 ---
 ### What was a bug and how to correct?
-* A bug was occured because of this `arr[i] = arr[arr.length - i - 1];` code.
+* A bug was occured because of this
+```java
+for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+````
 
 
 
