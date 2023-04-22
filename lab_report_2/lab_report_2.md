@@ -94,6 +94,9 @@ public static void reversedInPlace(ArrayList<Integer> arr, int Size) {
   }
 }
 ```
+![lab_report_2 7](https://user-images.githubusercontent.com/129816454/233755766-7d8588fb-e975-46fb-b71d-8a2abd4d2fc5.png)
+* As you can see, the bugs are fixed now!
+
 
 
 
