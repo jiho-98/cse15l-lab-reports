@@ -97,7 +97,7 @@ public static void reversedInPlace(ArrayList<Integer> arr, int Size) {
 ![lab_report_2 7](https://user-images.githubusercontent.com/129816454/233755766-7d8588fb-e975-46fb-b71d-8a2abd4d2fc5.png)
 * As you can see, the bugs are fixed now!
 ---
-### What was a bug and how to correct?
+### What was a bug?
 * A bug was occured because of this
 ```java
 for(int i = 0; i < arr.length; i += 1) {
@@ -107,7 +107,8 @@ for(int i = 0; i < arr.length; i += 1) {
 * This is because, it keeps changing an array even after they are correctly reversed, because you loop it as much as size of an array
 * The loop should have been stopped in half the size of an array if the size of an array.
 ---
-* How did I correct this
+### How to fix it?
+* What I did for reversing an array, I used data structure called **"Stack"**
 
 
 
