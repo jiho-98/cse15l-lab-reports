@@ -38,7 +38,7 @@ This is lab report 2 for CSE-15L course from Jiho Kim.
 ## 2) PART 2
 ### Reversed Array Bug from the lab 3
 ---
-* A failure-including input
+* A failure-inducing input
 ```java
 import static org.junit.Assert.*;
 import org.junit.*;
@@ -50,7 +50,19 @@ public class ArrayTests {
     assertArrayEquals(new int[]{}, ArrayExamples.reversed(input1));
   }
 }
+```
+* An input does not induce a failure
+```java
+import static org.junit.Assert.*;
+import org.junit.*;
 
+public class ArrayTests {
+  @Test
+  public void testReversed() {
+    int[] input1 = {1,2,3,4,5};
+    assertArrayEquals(new int[]{5,4,3,2,1}, ArrayExamples.reversed(input1));
+  }
+}
 ```
 
 
