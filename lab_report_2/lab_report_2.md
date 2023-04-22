@@ -114,6 +114,11 @@ for(int i = 0; i < arr.length; i += 1) {
 * All you have to do is to push element into a stack, and store top of the stack element as a first element in the array
 * Don't forget to pop out last element in a stack to update top element in a stack
 * You repeat this until a stack is empty!
+---
+## 3) PART 3
+
+
+
 
 
 
