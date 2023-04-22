@@ -105,11 +105,11 @@ for(int i = 0; i < arr.length; i += 1) {
     }
 ````
 * This is because, it keeps changing an array even after they are correctly reversed, because you loop it as much as size of an array
-* The loop should have been stopped in half the size of an array if the size of an array.
+* The loop should have been stopped in half the size of an array if the size of an array
 ---
 ### How to fix it?
 * What I did for reversing an array, I used data structure called **"Stack"**
-
+* The feature of the stack is **"FILO"**, which means that first element will pop out last
 
 
 
