@@ -39,23 +39,18 @@ This is lab report 2 for CSE-15L course from Jiho Kim.
 ### Reversed Array Bug from the lab 3
 ---
 ```java
-static int[] reversed(int[] arr) {
-    int[] newArray = new int[arr.length];
-    int left = 0;
-    int right = arr.length - 1;
-    int temp;
-    
-    while (left < right) {
-        // swap the elements at the left and right indices
-        temp = arr[left];
-        arr[left] = arr[right];
-        arr[right] = temp;
-        
-        // move the left and right indices toward each other
-        left++;
-        right--;
-    }
-    return newArray;
+import static org.junit.Assert.*;
+import org.junit.*;
+
+public class ArrayTests {
+  @Test
+  public void testReversed() {
+    int[] input1 = {5,4,3,2,1 };
+    assertArrayEquals(new int[]{ 1,2,5,4,3}, ArrayExamples.reversed(input1));
+  }
+
+}
+
   }
 ```
 
