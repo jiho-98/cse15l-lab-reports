@@ -66,7 +66,7 @@ public class ArrayTests {
 ```
 * The symptom of the image is that "cannot read the array" because parameter is null
 ![lab_report_2 5](https://user-images.githubusercontent.com/129816454/233754766-3e2b797d-d515-48a3-8382-59f9ccb164d8.png)
-* The symtom of image is that the second element in the array should be 4 but it was 5
+* The symtom of image is that the second element in the array should be 2 but it was 4
 ![lab_report_2 6](https://user-images.githubusercontent.com/129816454/233754778-c3fa1d75-ff8f-4488-9198-70c9f7fe6172.png)
 ---
 ## Code for fixing the bug
