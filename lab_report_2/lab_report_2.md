@@ -129,7 +129,7 @@ In Java, I've learned Junit, a way to do assertions as well, which is useful. Ev
 ![lab_report_2 10](https://user-images.githubusercontent.com/129816454/233759422-99e18e12-d387-4831-a671-9ec8ac65ee35.png)
 ![lab_report_2 11](https://user-images.githubusercontent.com/129816454/233759423-5b1d9134-456c-42b4-b9d5-b06a9794cd38.png)
 * It was hard for me to modify ChatGPT's code to be used in the ArrayExamples and ArrayTests, because parameter was different, I needed to add some of import java~ in the ArrayExamples and ArrayTests.
-* Those are my prompt to modifying converted Java code that can work in the ArrayExamples and ArrayTests so that I can test it.
+* Those are my prompt and answer to modifying converted Java code that can work in the ArrayExamples and ArrayTests so that I can test it.
 
 
 
