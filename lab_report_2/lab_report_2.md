@@ -110,9 +110,9 @@ for(int i = 0; i < arr.length; i += 1) {
 ### How to fix it?
 * What I did for reversing an array, I used data structure called **"Stack"**
 * The feature of the stack is **"FILO"**, which means that first element pused into a stack will pop out last
-* If you push the element in the array from index 0 to arraySize-1, the last element will be pop out as a first!
+* If you push the element in the array from index 0 to arraySize-1, the last element will be pop out as a first
 * All you have to do is to push element into a stack, and store top of the stack element as a first element in the array
-* Don't forget to pop out last element in a stack to update top element in a stack!
+* Don't forget to pop out last element in a stack to update top element in a stack
 * You repeat this until a stack is empty!
 
 
