@@ -36,8 +36,7 @@ This is lab report 2 for CSE-15L course from Jiho Kim.
 * The new value of messageBuilder is then returned as a string in the response
 ---
 ## 2) PART 2
-
-
+### Reversed Array Bug from lab 3
 
 
 
