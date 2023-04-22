@@ -69,7 +69,7 @@ public class ArrayTests {
 * The symtom of image is that the second element in the array should be 4 but it was 5
 ![lab_report_2 6](https://user-images.githubusercontent.com/129816454/233754778-c3fa1d75-ff8f-4488-9198-70c9f7fe6172.png)
 ---
-* fix the bug
+## Code for fixing the bug
 * Code that is before fix the bug
 ```java
 static void reverseInPlace(int[] arr) {
