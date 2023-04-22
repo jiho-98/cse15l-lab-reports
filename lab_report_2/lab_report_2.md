@@ -48,10 +48,8 @@ public class ArrayTests {
     int[] input1 = {5,4,3,2,1 };
     assertArrayEquals(new int[]{ 1,2,5,4,3}, ArrayExamples.reversed(input1));
   }
-
 }
 
-  }
 ```
 
 
