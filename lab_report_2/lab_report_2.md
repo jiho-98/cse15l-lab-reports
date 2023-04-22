@@ -38,7 +38,7 @@ This is lab report 2 for CSE-15L course from Jiho Kim.
 ## 2) PART 2
 ### Reversed Array Bug from the lab 3
 ---
-1) A failure-including input
+1. A failure-including input
 ```java
 import static org.junit.Assert.*;
 import org.junit.*;
