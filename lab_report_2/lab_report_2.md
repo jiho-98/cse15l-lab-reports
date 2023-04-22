@@ -64,6 +64,12 @@ public class ArrayTests {
   }
 }
 ```
+* The symptoms of both a failure-inducing input and success-inducing input
+![lab_report_2 5](https://user-images.githubusercontent.com/129816454/233752616-2d9f50c9-d3c1-4027-9af9-6739be8991dd.png)    
+![lab_report_2 6](https://user-images.githubusercontent.com/129816454/233752619-f386f121-aaad-47f5-8880-10c4e8871029.png)
+
+
+
 
 
 
