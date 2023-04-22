@@ -122,7 +122,10 @@ In Java, I've learned Junit, a way to do assertions as well, which is useful. Ev
 
 ---
 ## Reference in the ChatGPT
-
+![lab_report_2 8](https://user-images.githubusercontent.com/129816454/233759073-4106c28e-68e5-4530-9e0a-e55bbc523db2.png)
+![lab_report_2 9](https://user-images.githubusercontent.com/129816454/233759074-6b16cc53-c646-4a61-8b70-560830d2c27b.png)
+* I coded my own, to fix a bug in the array in C++, however, I was not sure if there is vector in Java or the way to pass array as a parameter
+* Above images are my prompt for converting C++ code into Java, and answer of a ChatGPT
 
 
 
