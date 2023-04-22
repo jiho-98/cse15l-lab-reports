@@ -68,6 +68,31 @@ public class ArrayTests {
 ![lab_report_2 5](https://user-images.githubusercontent.com/129816454/233754766-3e2b797d-d515-48a3-8382-59f9ccb164d8.png)
 * The symtom of image is that the second element in the array should be 4 but it was 5
 ![lab_report_2 6](https://user-images.githubusercontent.com/129816454/233754778-c3fa1d75-ff8f-4488-9198-70c9f7fe6172.png)
+---
+* fix the bug
+* Code that is before fix the bug
+```java
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+* Code that is after fix the bug
+```java
+public static void reversed(ArrayList<Integer> arr, int Size) {
+ Stack<Integer> s = new Stack<>();
+
+        for (int i = 0; i < Size; i++) {
+            s.push(arr.get(i));
+        }
+        int i = 0;
+        while (!s.empty()) {
+            arr.set(i, s.pop());
+            i++;
+        }
+    }
+```
 
 
 
