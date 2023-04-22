@@ -80,18 +80,19 @@ static void reverseInPlace(int[] arr) {
 ```
 * Code that is after fix the bug
 ```java
-static void reversed(ArrayList<Integer> arr, int Size) {
- Stack<Integer> s = new Stack<>();
+public static void reversedInPlace(ArrayList<Integer> arr, int Size) {
+    Stack<Integer> s = new Stack<>();
 
-        for (int i = 0; i < Size; i++) {
-            s.push(arr.get(i));
-        }
-        int i = 0;
-        while (!s.empty()) {
-            arr.set(i, s.pop());
-            i++;
-        }
+    for (int i = 0; i < Size; i++) {
+        s.push(arr.get(i));
     }
+    int i = 0;
+    while (!s.empty()) {
+        arr.set(i, s.pop());
+        i++;
+    }
+  }
+}
 ```
 
 
