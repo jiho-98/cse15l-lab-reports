@@ -119,6 +119,7 @@ for(int i = 0; i < arr.length; i += 1) {
 ### Reflection
 From weeks 2 and 3, I have learned so many new things as a cs major student. I have only experienced C++ programming language, however, I coded with Java, which is important for the future. Also, with web-server, I thought I had to learn some other things like HTML, CSS, and JavaScript for dealing with a web server, which I have not had any experience with before, but I've learned basic things through Java. Even though I still perfectly not understand all the codes in Java, URLHandler,Server.java, and NumberServer.java, I've learned how URI can be split by using getPath() and getQuery(), modifying the webserver with my own port number.
 In Java, I've learned Junit, a way to do assertions as well, which is useful. Everything is new, so I am still not getting used to terms in the class, however, I will get used to it hopefully!
+## Reference in the ChatGPT
 
 
 
