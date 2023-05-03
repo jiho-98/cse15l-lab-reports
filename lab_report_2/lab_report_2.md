@@ -1,7 +1,33 @@
 # CSE-15L Lab Report 2
 This is lab report 2 for CSE-15L course from Jiho Kim.
 ## 1) PART 1
-
+````java
+public String handleRequest(URI url) {
+    if (url.getPath().equals("/")) {
+        return String.format("Jiho's number: %d", num);
+    } else if (url.getPath().equals("/increment")) {
+        num += 1;
+        return String.format("Number incremented!");
+    } else if (url.getPath().equals("/add-message")) {
+        String message = url.getQuery().split("=")[1];
+        if (messageBuilder.length() > 0) {
+            messageBuilder.append("\n");
+        }
+        messageBuilder.append(message);
+        return messageBuilder.toString();
+    } else {
+        System.out.println("Path: " + url.getPath());
+        if (url.getPath().contains("/add")) {
+            String[] parameters = url.getQuery().split("=");
+            if (parameters[0].equals("count")) {
+                num += Integer.parseInt(parameters[1]);
+                return String.format("Number increased by %s! It's now %d", parameters[1], num);
+            }
+        }
+        return "404 Not Found!";
+    }
+}
+````
 * This is a code that I modify in VScode for PART 1
 ---
 ## The requests "add-message?s=String" for PART 1
