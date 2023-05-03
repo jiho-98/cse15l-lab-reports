@@ -1,7 +1,7 @@
 # CSE-15L Lab Report 2
 This is lab report 2 for CSE-15L course from Jiho Kim.
 ## 1) PART 1
-![lab_report_2 4](https://user-images.githubusercontent.com/129816454/233743743-c036a90f-0e5a-4103-b29d-6ec3fefd925b.png)
+
 * This is a code that I modify in VScode for PART 1
 ---
 ## The requests "add-message?s=String" for PART 1
