@@ -1,7 +1,0 @@
-![KakaoTalk_20230502_195314169](https://user-images.githubusercontent.com/129816454/235845486-23ea07e0-43a8-4c4f-b3d8-181de87e107a.jpg)
-![KakaoTalk_20230502_195314169_01](https://user-images.githubusercontent.com/129816454/235845488-22f1d6d7-609f-44ae-b31e-58c5fd995b41.jpg)
-![KakaoTalk_20230502_195314169_02](https://user-images.githubusercontent.com/129816454/235845489-4e36b9e5-9982-4d01-8018-a372c78464a3.jpg)
-![KakaoTalk_20230502_195314169_03](https://user-images.githubusercontent.com/129816454/235845490-f7cb11ba-8ee5-4346-aee2-ece36909c1d8.jpg)
-![KakaoTalk_20230502_195314169_04](https://user-images.githubusercontent.com/129816454/235845491-fcd3dbcc-3018-49c3-b215-e9dc2abc1ec0.jpg)
-![KakaoTalk_20230502_195314169_05](https://user-images.githubusercontent.com/129816454/235845492-6a2569aa-acd6-4356-8a07-5be6a4c4e916.jpg)
-![화면 캡처 2023-04-30 145339](https://user-images.githubusercontent.com/129816454/235845494-d68b3fd0-2d23-49c9-aa65-4dfd58abbb84.png)
