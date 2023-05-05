@@ -14,6 +14,7 @@ This is lab report 3 for CSE-15L course from Jiho Kim.
 ![lab_report-3 2](https://user-images.githubusercontent.com/129816454/236583674-d46e3df5-e518-48c6-b354-fc3e0347664c.png)    
 * `find technical/911report/ -name "*-*"`: This command searches for all files in the technical/911report/ directory (and its subdirectories) that have a hyphen in their filename    
 ![lab_report-3 3](https://user-images.githubusercontent.com/129816454/236584442-526decee-60af-419d-900a-e757f80a9d0c.png)
+---
 2. `-type`: The -type option in the find command is used to specify the type of the file that we want to search for
 * `find . -type d`: This command will search for all directories within the current directory
 ![lab_report-3 4](https://user-images.githubusercontent.com/129816454/236584827-2b460d70-1434-4029-a687-46f6975fce1d.png)
