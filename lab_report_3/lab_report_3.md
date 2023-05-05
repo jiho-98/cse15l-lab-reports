@@ -10,4 +10,4 @@ This is lab report 3 for CSE-15L course from Jiho Kim.
 ### Options of the `Find` Command
 1. `-name`: The find -name command searches for files with a specific name in the specified directory or its subdirectories.
 * Examples:
-*   1) 
+*           1) 
