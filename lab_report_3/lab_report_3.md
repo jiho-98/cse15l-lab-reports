@@ -21,5 +21,11 @@ This is lab report 3 for CSE-15L course from Jiho Kim.
 * `find . -type f`: This command will find all files (not directories) in the current directory and its subdirectories recursively.
 ![lab_report-3 5](https://user-images.githubusercontent.com/129816454/236585054-d7ca65fe-c647-4881-9f8c-22a681e04347.png)
 ![lab_report-3 6](https://user-images.githubusercontent.com/129816454/236585055-f86e1875-1bdb-4d8d-8b1d-fbb0d3caa059.png)
+---
+3. `-size`: The -size option in the find command is used to search for files based on their size. It allows you to search for files that are of a specific size or within a range of sizes.
+* `find . -size +1024c`: This command will find all files in the current directory and its subdirectories that are larger than 1024 bytes    
+![image](https://user-images.githubusercontent.com/129816454/236585638-5425cf0e-4f88-4b8e-bed9-66902da34c5e.png)
+
+
 
 
