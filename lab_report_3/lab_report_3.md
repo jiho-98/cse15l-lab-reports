@@ -18,4 +18,8 @@ This is lab report 3 for CSE-15L course from Jiho Kim.
 2. `-type`: The -type option in the find command is used to specify the type of the file that we want to search for
 * `find . -type d`: This command will search for all directories within the current directory
 ![lab_report-3 4](https://user-images.githubusercontent.com/129816454/236584827-2b460d70-1434-4029-a687-46f6975fce1d.png)
+* `$ find . -type f`: This command will find all files (not directories) in the current directory and its subdirectories recursively.
+![lab_report-3 5](https://user-images.githubusercontent.com/129816454/236585054-d7ca65fe-c647-4881-9f8c-22a681e04347.png)
+![lab_report-3 6](https://user-images.githubusercontent.com/129816454/236585055-f86e1875-1bdb-4d8d-8b1d-fbb0d3caa059.png)
+
 
