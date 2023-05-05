@@ -25,6 +25,9 @@ This is lab report 3 for CSE-15L course from Jiho Kim.
 3. `-size`: The -size option in the find command is used to search for files based on their size. It allows you to search for files that are of a specific size or within a range of sizes.
 * `find . -size +1024c`: This command will find all files in the current directory and its subdirectories that are larger than 1024 bytes    
 ![lab_report-3 7](https://user-images.githubusercontent.com/129816454/236585658-b8363628-cdf6-457f-8688-4cdf3ecaafad.png)
+* `$  find . -size -1024c`: This command will find all files in the current directory and its subdirectories that are less than 1024 bytes    
+![lab_report-3 8](https://user-images.githubusercontent.com/129816454/236585829-4eb4d87c-bc63-4d57-a66d-e48d844fbd1f.png)
+
 
 
 
