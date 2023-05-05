@@ -11,5 +11,5 @@ This is lab report 3 for CSE-15L course from Jiho Kim.
 1. `-name`: The find -name command searches for files with a specific name in the specified directory or its subdirectories.
 * `find . -name "*.txt"`: This command will search for all files ending with the ".txt" extension in the current directory and all subdirectories
 ![lab_report-3 1](https://user-images.githubusercontent.com/129816454/236583673-c8ae31ab-620e-4c21-9bfd-056d4b0cffa0.png)
-![lab_report-3 2](https://user-images.githubusercontent.com/129816454/236583674-d46e3df5-e518-48c6-b354-fc3e0347664c.png)
-
+![lab_report-3 2](https://user-images.githubusercontent.com/129816454/236583674-d46e3df5-e518-48c6-b354-fc3e0347664c.png)    
+* `find technical/911report/ -name "*-*"`: This command searches for all files in the technical/911report/ directory (and its subdirectories) that have a hyphen in their filename
