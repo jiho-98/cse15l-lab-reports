@@ -46,7 +46,7 @@ technical/911report/chapter-7.txt
 technical/911report/chapter-8.txt
 technical/911report/chapter-9.txt
 ```
-* `find technical/911report/ -name "*-*"`: This command searches for all files in the technical/911report/ directory (and its subdirectories) that have a hyphen in their filename, by using this command, you are able to find all the files that has hyphen in your 911report directory, which is quite useful for specifying files
+* `find technical/911report/ -name "*-*"`: This command searches for all files in the technical/911report/ directory (and its subdirectories) that have a hyphen in their filename, by using this command, you are able to find all the files that has hyphen in your 911report directory, which is quite useful for specifying files    
 * [citation](https://recipes4dev.tistory.com/156)
 ---
 2. `-type`: The -type option in the find command is used to specify the type of the file that we want to search for
@@ -189,7 +189,7 @@ $ find . -size -1024c
 ./technical/plos/pmed.0020226.txt
 ```
 * `find . -size -1024c`: This command will find all files in the current directory and its subdirectories that are less than 1024 bytes, if you ever need to find some files with respect to size of files, you can specify the size and find it with this command, which is useful.
-[ciatation](https://recipes4dev.tistory.com/156)
+[ciatation](https://recipes4dev.tistory.com/156)    
 ---
 4. `-newermt`: The -newermt option is used with the find command in Linux to locate files that were modified more recently than a particular time
 ```console
@@ -225,7 +225,7 @@ dudwl@DESKTOP-JNKL4JN MINGW64 ~/Documents/GitHub/stringsearch/stringsearch-data 
 $ find . -newermt "2023-05-05"
 
 ```
-* `find . -newermt "2023-05-05"`: This command will find all files and directories in the current directory that have been modified more recently than May 5th, 2023. The output is blank, this is because nothing has been modified. It will be great evidence, if your team project occurs error and you have not done anything with the files
+* `find . -newermt "2023-05-05"`: This command will find all files and directories in the current directory that have been modified more recently than May 5th, 2023. The output is blank, this is because nothing has been modified. It will be great evidence, if your team project occurs error and you have not done anything with the files    
 [citation image below]    
 ![lab_report-3 9](https://user-images.githubusercontent.com/129816454/236589928-19d3e531-724e-4819-ba42-53f1126b1a61.png)
 
