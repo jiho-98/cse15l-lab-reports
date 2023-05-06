@@ -225,7 +225,9 @@ dudwl@DESKTOP-JNKL4JN MINGW64 ~/Documents/GitHub/stringsearch/stringsearch-data 
 $ find . -newermt "2023-05-05"
 
 ```
-* `find . -newermt "2023-05-05"`: This command will find all files and directories in the current directory that have been modified more recently than May 5th, 2023.
+* `find . -newermt "2023-05-05"`: This command will find all files and directories in the current directory that have been modified more recently than May 5th, 2023. The output is blank, this is because nothing has been modified. It will be great evidence, if your team project occurs error and you have not done anything with the files
+[citation] ![lab_report-3 9](https://user-images.githubusercontent.com/129816454/236589928-19d3e531-724e-4819-ba42-53f1126b1a61.png)
+
 
 
 
