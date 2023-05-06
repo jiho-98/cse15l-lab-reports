@@ -26,9 +26,30 @@ $ find . -name "*.txt"
 dudwl@DESKTOP-JNKL4JN MINGW64 ~/Documents/GitHub/stringsearch/stringsearch-data (main)
 $
 ```
-* `find . -name "*.txt"`: This command will search for all files ending with the ".txt" extension in the current directory and all subdirectories, this methods is useful when you want to see all files ends with ".txt"
-* `find technical/911report/ -name "*-*"`: This command searches for all files in the technical/911report/ directory (and its subdirectories) that have a hyphen in their filename    
-![lab_report-3 3](https://user-images.githubusercontent.com/129816454/236584442-526decee-60af-419d-900a-e757f80a9d0c.png)
+* `find . -name "*.txt"`: This command will search for all files ending with the ".txt" extension in the current directory and all subdirectories, this methods is useful when you want to see all files ends with ".txt"    
+```console
+dudwl@DESKTOP-JNKL4JN MINGW64 ~/Documents/GitHub/stringsearch/stringsearch-data (main)
+$ find technical/911report/ -name "*-*"
+technical/911report/chapter-1.txt
+technical/911report/chapter-10.txt
+technical/911report/chapter-11.txt
+technical/911report/chapter-12.txt
+technical/911report/chapter-13.1.txt
+technical/911report/chapter-13.2.txt
+technical/911report/chapter-13.3.txt
+technical/911report/chapter-13.4.txt
+technical/911report/chapter-13.5.txt
+technical/911report/chapter-2.txt
+technical/911report/chapter-3.txt
+technical/911report/chapter-5.txt
+technical/911report/chapter-6.txt
+technical/911report/chapter-7.txt
+technical/911report/chapter-8.txt
+technical/911report/chapter-9.txt
+dudwl@DESKTOP-JNKL4JN MINGW64 ~/Documents/GitHub/stringsearch/stringsearch-data (main)
+$ 
+```
+* `find technical/911report/ -name "*-*"`: This command searches for all files in the technical/911report/ directory (and its subdirectories) that have a hyphen in their filename, by using this command, you are able to find all the files that has hyphen in your 911report directory, which is quite useful for specifying files
 ---
 2. `-type`: The -type option in the find command is used to specify the type of the file that we want to search for
 * `find . -type d`: This command will search for all directories within the current directory
