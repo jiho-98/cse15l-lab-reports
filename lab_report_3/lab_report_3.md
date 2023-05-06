@@ -50,6 +50,7 @@ dudwl@DESKTOP-JNKL4JN MINGW64 ~/Documents/GitHub/stringsearch/stringsearch-data 
 $ 
 ```
 * `find technical/911report/ -name "*-*"`: This command searches for all files in the technical/911report/ directory (and its subdirectories) that have a hyphen in their filename, by using this command, you are able to find all the files that has hyphen in your 911report directory, which is quite useful for specifying files
+* [Click here for more information](https://recipes4dev.tistory.com/156)
 ---
 2. `-type`: The -type option in the find command is used to specify the type of the file that we want to search for
 * `find . -type d`: This command will search for all directories within the current directory
