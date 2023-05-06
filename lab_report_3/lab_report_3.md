@@ -82,7 +82,7 @@ $ find . -type d
 ./technical/government/Post_Rate_Comm
 ./technical/plos
 ```
-* `find . -type d`: This command will search for all directories within the current directory, and if you are wondering how many directories within the curren directory, you can check it by using this command.    
+* `find . -type d`: This command will search for all directories within the current directory, and if you are wondering how many directories within the curren directory, you can check it by using this command, it will be useful if you need to check all the directories.    
 ```console
 dudwl@DESKTOP-JNKL4JN MINGW64 ~/Documents/GitHub/stringsearch/stringsearch-data (main)
 $ find . -type f
@@ -109,7 +109,7 @@ $ find . -type f
 ./technical/plos/pmed.0020278.txt
 ./technical/plos/pmed.0020281.txt
 ```
-* `find . -type f`: This command will find all files (not directories) in the current directory and its subdirectories recursively, if you want to see only the files in the current directory you can easily check it with this command    
+* `find . -type f`: This command will find all files (not directories) in the current directory and its subdirectories recursively, if you want to see only the files in the current directory you can easily check it with this command, which is useful for finding total amount of files 
 * [citation](https://recipes4dev.tistory.com/156)
 ---
 3. `-size`: The -size option in the find command is used to search for files based on their size. It allows you to search for files that are of a specific size or within a range of sizes.
@@ -136,7 +136,7 @@ $ find . -size +1024c
 ./technical/plos/pmed.0020278.txt
 ./technical/plos/pmed.0020281.txt
 ```
-* `find . -size +1024c`: This command will find all files in the current directory and its subdirectories that are larger than 1024 bytes, if you need to find some files that has greater than 1024 bytes, you can use this command
+* `find . -size +1024c`: This command will find all files in the current directory and its subdirectories that are larger than 1024 bytes, if you need to find some files that has greater than 1024 bytes, you can use this command, since you can specify the size of files, you do not need to check all the files, it makes life convenience
 ```console
 
 dudwl@DESKTOP-JNKL4JN MINGW64 ~/Documents/GitHub/stringsearch/stringsearch-data (main)
@@ -188,8 +188,8 @@ $ find . -size -1024c
 ./technical/plos/pmed.0020191.txt
 ./technical/plos/pmed.0020226.txt
 ```
-* `find . -size -1024c`: This command will find all files in the current directory and its subdirectories that are less than 1024 bytes, if you ever need to find some files with respect to size of files, you can specify the size and find it with this command, which is useful.
-[ciatation](https://recipes4dev.tistory.com/156)    
+* `find . -size -1024c`: This command will find all files in the current directory and its subdirectories that are less than 1024 bytes, if you ever need to find some files with respect to size of files, you can specify the size and find it with this command, which is useful.    
+* [citation](https://recipes4dev.tistory.com/156)    
 ---
 4. `-newermt`: The -newermt option is used with the find command in Linux to locate files that were modified more recently than a particular time
 ```console
