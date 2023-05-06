@@ -23,10 +23,8 @@ $ find . -name "*.txt"
 ./technical/plos/pmed.0020275.txt
 ./technical/plos/pmed.0020278.txt
 ./technical/plos/pmed.0020281.txt
-dudwl@DESKTOP-JNKL4JN MINGW64 ~/Documents/GitHub/stringsearch/stringsearch-data (main)
-$
 ```
-* `find . -name "*.txt"`: This command will search for all files ending with the ".txt" extension in the current directory and all subdirectories, this methods is useful when you want to see all files ends with ".txt"    
+* `find . -name "*.txt"`: This command will search for all files ending with the ".txt" extension in the current directory and all subdirectories, this method is useful when you want to see all files ends with ".txt"    
 ```console
 dudwl@DESKTOP-JNKL4JN MINGW64 ~/Documents/GitHub/stringsearch/stringsearch-data (main)
 $ find technical/911report/ -name "*-*"
@@ -46,18 +44,71 @@ technical/911report/chapter-6.txt
 technical/911report/chapter-7.txt
 technical/911report/chapter-8.txt
 technical/911report/chapter-9.txt
-dudwl@DESKTOP-JNKL4JN MINGW64 ~/Documents/GitHub/stringsearch/stringsearch-data (main)
-$ 
 ```
 * `find technical/911report/ -name "*-*"`: This command searches for all files in the technical/911report/ directory (and its subdirectories) that have a hyphen in their filename, by using this command, you are able to find all the files that has hyphen in your 911report directory, which is quite useful for specifying files
 * [Click here for more information](https://recipes4dev.tistory.com/156)
 ---
 2. `-type`: The -type option in the find command is used to specify the type of the file that we want to search for
-* `find . -type d`: This command will search for all directories within the current directory
-![lab_report-3 4](https://user-images.githubusercontent.com/129816454/236584827-2b460d70-1434-4029-a687-46f6975fce1d.png)
-* `find . -type f`: This command will find all files (not directories) in the current directory and its subdirectories recursively.
-![lab_report-3 5](https://user-images.githubusercontent.com/129816454/236585054-d7ca65fe-c647-4881-9f8c-22a681e04347.png)
-![lab_report-3 6](https://user-images.githubusercontent.com/129816454/236585055-f86e1875-1bdb-4d8d-8b1d-fbb0d3caa059.png)
+```console
+dudwl@DESKTOP-JNKL4JN MINGW64 ~/Documents/GitHub/stringsearch/stringsearch-data (main)
+$ find . -type d
+.
+./.git
+./.git/hooks
+./.git/info
+./.git/logs
+./.git/logs/refs
+./.git/logs/refs/heads
+./.git/logs/refs/remotes
+./.git/logs/refs/remotes/origin
+./.git/objects
+./.git/objects/info
+./.git/objects/pack
+./.git/refs
+./.git/refs/heads
+./.git/refs/remotes
+./.git/refs/remotes/origin
+./.git/refs/tags
+./technical
+./technical/911report
+./technical/biomed
+./technical/government
+./technical/government/About_LSC
+./technical/government/Alcohol_Problems
+./technical/government/Env_Prot_Agen
+./technical/government/Gen_Account_Office
+./technical/government/Media
+./technical/government/Post_Rate_Comm
+./technical/plos
+```
+* `find . -type d`: This command will search for all directories within the current directory, and if you are wondering how many directories within the curren directory, you can check it by using this command.    
+```console
+dudwl@DESKTOP-JNKL4JN MINGW64 ~/Documents/GitHub/stringsearch/stringsearch-data (main)
+$ find . -type f
+./technical/plos/pmed.0020226.txt
+./technical/plos/pmed.0020231.txt
+./technical/plos/pmed.0020232.txt
+./technical/plos/pmed.0020235.txt
+./technical/plos/pmed.0020236.txt
+./technical/plos/pmed.0020237.txt
+./technical/plos/pmed.0020238.txt
+./technical/plos/pmed.0020239.txt
+./technical/plos/pmed.0020242.txt
+./technical/plos/pmed.0020246.txt
+./technical/plos/pmed.0020247.txt
+./technical/plos/pmed.0020249.txt
+./technical/plos/pmed.0020257.txt
+./technical/plos/pmed.0020258.txt
+./technical/plos/pmed.0020268.txt
+./technical/plos/pmed.0020272.txt
+./technical/plos/pmed.0020273.txt
+./technical/plos/pmed.0020274.txt
+./technical/plos/pmed.0020275.txt
+./technical/plos/pmed.0020278.txt
+./technical/plos/pmed.0020281.txt
+```
+* `find . -type f`: This command will find all files (not directories) in the current directory and its subdirectories recursively, if you want to see only the files in the current directory you can easily check it with this command    
+* [Click here for more information](https://recipes4dev.tistory.com/156)
 ---
 3. `-size`: The -size option in the find command is used to search for files based on their size. It allows you to search for files that are of a specific size or within a range of sizes.
 * `find . -size +1024c`: This command will find all files in the current directory and its subdirectories that are larger than 1024 bytes    
