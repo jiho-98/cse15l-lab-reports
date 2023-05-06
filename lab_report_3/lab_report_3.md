@@ -27,6 +27,10 @@ This is lab report 3 for CSE-15L course from Jiho Kim.
 ![lab_report-3 7](https://user-images.githubusercontent.com/129816454/236585658-b8363628-cdf6-457f-8688-4cdf3ecaafad.png)
 * `$  find . -size -1024c`: This command will find all files in the current directory and its subdirectories that are less than 1024 bytes    
 ![lab_report-3 8](https://user-images.githubusercontent.com/129816454/236585829-4eb4d87c-bc63-4d57-a66d-e48d844fbd1f.png)
+---
+4. `-newermt`: The -newermt option is used with the find command in Linux to locate files that were modified more recently than a particular time
+* `$ find . -newermt "2023-04-02"`: This command will find all files and directories in the current directory that have been modified more recently than April 2nd, 2023.
+* `$ find . -newermt "2023-05-05"`: This command will find all files and directories in the current directory that have been modified more recently than May 5th, 2023.
 
 
 
