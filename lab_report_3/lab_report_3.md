@@ -8,8 +8,7 @@ This is lab report 3 for CSE-15L course from Jiho Kim.
 * The basic syntax for "Find" command is `find [path] [expression]`, where path is a directory, expression is a set of options and tests that you want to use to filter your search results    
 ## 2) PART 2
 ### Options of the `Find` Command
-1. `-name`: The find -name command searches for files with a specific name in the specified directory or its subdirectories
-* `find . -name "*.txt"`: This command will search for all files ending with the ".txt" extension in the current directory and all subdirectories    
+1. `-name`: The find -name command searches for files with a specific name in the specified directory or its subdirectories  
 ```console
 dudwl@DESKTOP-JNKL4JN MINGW64 ~/Documents/GitHub/stringsearch/stringsearch-data (main)
 $ find . -name "*.txt"
@@ -27,6 +26,7 @@ $ find . -name "*.txt"
 dudwl@DESKTOP-JNKL4JN MINGW64 ~/Documents/GitHub/stringsearch/stringsearch-data (main)
 $
 ```
+* * `find . -name "*.txt"`: This command will search for all files ending with the ".txt" extension in the current directory and all subdirectories, this methods is useful when you want to see all files ends with ".txt"
 * `find technical/911report/ -name "*-*"`: This command searches for all files in the technical/911report/ directory (and its subdirectories) that have a hyphen in their filename    
 ![lab_report-3 3](https://user-images.githubusercontent.com/129816454/236584442-526decee-60af-419d-900a-e757f80a9d0c.png)
 ---
