@@ -46,3 +46,6 @@ Key pressed: **git\<space>add\<space>ListExamples.java\<enter>git\<space>commit\
 * `git add`: In Git, the git add command is used to stage changes in your working directory for the next commit. It allows you to specify which files or directories you want to include in the next commit
 * `git commit -m'`: It allows you to record the changes made to your files and create a checkpoint in the Git history
 * `git push origin main`: In Git, the git push origin main command is used to push your local commits to a remote repository named "origin" on the branch "main". It updates the remote repository with the changes you have made locally.
+---
+## Reference
+![chatgpt](https://github.com/jiho-98/cse15l-lab-reports/assets/129816454/74cd446e-6472-4d91-a3c9-1ea191dd4856)
