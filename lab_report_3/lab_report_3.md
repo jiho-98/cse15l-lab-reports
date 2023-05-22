@@ -47,7 +47,7 @@ technical/911report/chapter-8.txt
 technical/911report/chapter-9.txt
 ```
 * `find technical/911report/ -name "*-*"`: This command searches for all files in the technical/911report/ directory (and its subdirectories) that have a hyphen in their filename, by using this command, you are able to find all the files that has hyphen in your 911report directory, which is quite useful for specifying files.        
-* [citation](https://recipes4dev.tistory.com/156)
+* [citation](https://recipes4dev.tistory.com/156)(This is a website that organizes options of find command in Korean)
 ---
 2. `-type`: The -type option in the find command is used to specify the type of the file that we want to search for
 ```console
