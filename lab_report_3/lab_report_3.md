@@ -7,6 +7,8 @@ This is lab report 3 for CSE-15L course from Jiho Kim.
 ---
 2. How do we use it?
 * The basic syntax for "Find" command is `find [path] [expression]`, where path is a directory, expression is a set of options and tests that you want to use to filter your search results    
+---    
+
 ## 2) 4 Options of the "Find" command
 ### Options of the `Find` Command
 1. `-name`: The find -name command searches for files with a specific name in the specified directory or its subdirectories    
