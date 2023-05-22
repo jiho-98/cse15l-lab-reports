@@ -1,15 +1,14 @@
 # CSE-15L Lab Report 3
 This is lab report 3 for CSE-15L course from Jiho Kim.
-## 1) Introduction of the command "Find"
+## Introduction of the command "Find"
 ### "Find" command
 1. What is the "Find" command?    
 * The find command in shell script is used to search for files and directories in a directory hierarchy based on different criteria such as name, type, size, ownership, and modification time     
----
 2. How do we use it?
 * The basic syntax for "Find" command is `find [path] [expression]`, where path is a directory, expression is a set of options and tests that you want to use to filter your search results    
 ---    
 
-## 2) 4 Options of the "Find" command
+## 4 Options of the "Find" command
 ### Options of the `Find` Command
 1. `-name`: The find -name command searches for files with a specific name in the specified directory or its subdirectories    
 ```console
@@ -112,7 +111,7 @@ $ find . -type f
 ./technical/plos/pmed.0020278.txt
 ./technical/plos/pmed.0020281.txt
 ```
-* `find . -type f`: This command will find all files (not directories) in the current directory and its subdirectories recursively, if you want to see only the files in the current directory you can easily check it with this command, which is useful for finding the total amount of files.
+* `find . -type f`: This command will find all files (not directories) in the current directory and its subdirectories recursively, if you want to see only the files in the current directory you can easily check it with this command, which is useful for finding the total amount of files.    
 * [Reference website](https://recipes4dev.tistory.com/156) (This is a website that organizes options of find command with examples in Korean)
 ---
 3. `-size`: The -size option in the find command is used to search for files based on their size. It allows you to search for files that are of a specific size or within a range of sizes    
