@@ -11,6 +11,7 @@ This is lab report 5 for CSE-15L course from Jiho Kim.
 ![1](https://github.com/jiho-98/cse15l-lab-reports/assets/129816454/87e3d975-59d8-4590-b3c5-a2e7588b528e)    
 ### Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.    
 * This is the code for testing j-unit    
+
 ```console
 dudwl@DESKTOP-JNKL4JN MINGW64 ~/Documents/GitHub/lab3 (main)
 $ javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
@@ -39,6 +40,7 @@ public class ArrayExamples {
   }
 }
 ```    
+
 * This is an ArrayTests.java    
 ```java
 import static org.junit.Assert.*;
@@ -59,7 +61,8 @@ public class ArrayTests {
 dudwl@DESKTOP-JNKL4JN MINGW64 ~/Documents/GitHub/lab3 (main)
 $ pwd
 /c/Users/dudwl/Documents/GitHub/lab3
-```    
+```   
+
 ---
 ### Response from a TA
 * From TA: I think there an error in your code in the ArrayExamples. What is the feature of a stack? which element pop out the first in the stack? Make sure to understand the features of a stack completely!    
@@ -71,6 +74,7 @@ $ pwd
 ##### The file&directory structure    
 ![2](https://github.com/jiho-98/cse15l-lab-reports/assets/129816454/cbc3348f-55bb-4be1-bc26-5401173d2357)    
 ##### The content of each arraytest and arrayexample(those 2 are only used)    
+
 ```java
 
 import java.util.*;
@@ -131,6 +135,7 @@ public class ArrayExamples {
     return sum / (arr.length - 1);
   }*/
 ```    
+
 ```java
 import static org.junit.Assert.*;
 import org.junit.*;
@@ -145,16 +150,20 @@ public class ArrayTests {
 	}
 }
 ```    
+
 ##### The full lines of code to trigger the bug    
+
 ```java
 for (int i = arr.size()-1; i >= 0; i--) {
         s.push(arr.get(i));
     }
 ```    
+
 ##### The description of what to edit to fix the bug
 * what I did to fix the bug is that I changed the for-loop. In the first place, I push the elements in the array from the end to first element
 * I fixed it to push the elements in the array from the first to end
-* The stack will pop the last-in element from a stack-list, therefore, the array now be reverse order
+* The stack will pop the last-in element from a stack-list, therefore, the array now be reverse order    
+
 ```java
   public static void reversedInPlace(ArrayList<Integer> arr, int Size) {
     Stack<Integer> s = new Stack<>();
@@ -171,6 +180,7 @@ for (int i = arr.size()-1; i >= 0; i--) {
 }
 ```    
 ---
+
 ## PART 2) Reflection
 I've learned so many things in CSE-15L. Definitely, the numbers of commands, and how to add ssh keys to my laptop and remote server in GitHub. The useful thing was how to debug. The great thing was week6 that I made a program like a gradescope, which can grade the assignment. That was very impressive. Also, I learned how to make a comment on people's code as we did in the lab, comparing code with my code, I was able to recognize amazing ideas from the codes in my group folks. By using Java, we could also convert bash to java, so the bash comment worked in Java program by using only Java code, which was great to learn.
 
