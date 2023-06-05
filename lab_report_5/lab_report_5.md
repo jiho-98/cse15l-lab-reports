@@ -1,24 +1,24 @@
 # CSE-15L Lab Report 5
 This is lab report 5 for CSE-15L course from Jiho Kim.
-## PART 1) Debugging Scenario
-### What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?
+## PART 1) Debugging Scenario    
+### What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?    
 * I am using VScode, the operation system of my labtop is window
 * I am using git-bash terminal in VScode    
-### Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.
+### Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.    
 * I expect to see the array lists are in the reverse order by using a data-structure name "Stack"
 * By debugging in a Junit test, it seems to be the array lists are not in the reverse order
-* Below is a screenshot of the output
+* Below is a screenshot of the output    
 ![1](https://github.com/jiho-98/cse15l-lab-reports/assets/129816454/87e3d975-59d8-4590-b3c5-a2e7588b528e)    
-### Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.
-* This is the code for testing j-unit
+### Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.    
+* This is the code for testing j-unit    
 ```console
 dudwl@DESKTOP-JNKL4JN MINGW64 ~/Documents/GitHub/lab3 (main)
 $ javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
 
 dudwl@DESKTOP-JNKL4JN MINGW64 ~/Documents/GitHub/lab3 (main)
 $ java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ArrayTests
-```
-* This is a code in the ArrayExamples.java
+```    
+* This is a code in the ArrayExamples.java    
 ```java
 import java.util.*;
 import java.util.ArrayList;
@@ -38,8 +38,8 @@ public class ArrayExamples {
     }
   }
 }
-```
-* This is an ArrayTests.java
+```    
+* This is an ArrayTests.java    
 ```java
 import static org.junit.Assert.*;
 import org.junit.*;
@@ -53,8 +53,8 @@ public class ArrayTests {
     assertArrayEquals(new int[]{5,4,3,2,1},arr.stream().mapToInt(i -> i).toArray());
 	}
 }
-```
-* This is my pwd 
+```    
+* This is my pwd    
 ```java
 dudwl@DESKTOP-JNKL4JN MINGW64 ~/Documents/GitHub/lab3 (main)
 $ pwd
@@ -64,13 +64,13 @@ $ pwd
 ### Response from a TA
 * From TA: I think there an error in your code in the ArrayExamples. What is the feature of a stack? which element pop out the first in the stack? Make sure to understand the features of a stack completely!    
 ### Screenshot of fixed version
-![4](https://github.com/jiho-98/cse15l-lab-reports/assets/129816454/0dba2ce3-3543-4dd8-a11c-6cfe349dfa6d)    
+![4](https://github.com/jiho-98/cse15l-lab-reports/assets/129816454/0dba2ce3-3543-4dd8-a11c-6cfe349dfa6d)      
 * The bug was logic error of a stack. Since, a stack first element that is pushed, would be the last element that will pop out.
-* I error that I occured was if I put element in reverse way in stack, I thought it would give me a reverse array list. In fact, it will give a reverse way of expected array lists
+* I error that I occured was if I put element in reverse way in stack, I thought it would give me a reverse array list. In fact, it will give a reverse way of expected array lists    
 ### All information
 ##### The file&directory structure    
-![2](https://github.com/jiho-98/cse15l-lab-reports/assets/129816454/cbc3348f-55bb-4be1-bc26-5401173d2357)
-##### The content of each arraytest and arrayexample(those 2 are only used)
+![2](https://github.com/jiho-98/cse15l-lab-reports/assets/129816454/cbc3348f-55bb-4be1-bc26-5401173d2357)    
+##### The content of each arraytest and arrayexample(those 2 are only used)    
 ```java
 
 import java.util.*;
@@ -145,7 +145,7 @@ public class ArrayTests {
 	}
 }
 ```    
-##### The full lines of code to trigger the bug
+##### The full lines of code to trigger the bug    
 ```java
 for (int i = arr.size()-1; i >= 0; i--) {
         s.push(arr.get(i));
